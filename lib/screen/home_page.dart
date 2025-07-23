@@ -39,7 +39,6 @@ class _HomePageState extends State<HomePage> {
   @override
   void dispose() {
     _cityController.dispose();
-    print("hi");
     super.dispose();
   }
 
